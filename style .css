@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #c79653;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 100px;
+}
+.logo{
+    text-decoration: none;
+    color: #001100;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.navigation a{
+    text-decoration: none;
+    color:#001100;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+    
+}
+.navigation a:hover{
+    color: #ffffff;
+    
+}
+section{
+    padding: 100px 100px;
+}
+.main{
+    background: #001100;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/٢٠٢٣٠٥٠٤١٩١٨٤٤_5B3A6582.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.main h2{
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 500;
+}.main h2 span{
+    display: inline-block;
+    margin-top: 15px;
+    color:#c79653;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+.main-btn{
+    background: #c79653;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+.main-btn:hover{
+    background-color: #062ab8;
+    transform: scale(1.2);
+    
+}
+.icon a{
+    color: #fff;
+    font-size: 0.8em;
+    padding-right: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    color: #c79653;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:  #c79653;
+    width: 340px;
+    box-shadow: 0 5px 30px rgba(1 1 1 / 50%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.7s;  
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #001100;
+    font-size: 5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.info h4{
+    color: #001100;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.info p{
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.projects{
+    background: #001100;
+}
+.project.content{
+    margin-top: 30px;
+}
+.project-crad{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 15px;
+    transition: 0.8s ease;
+}
+.project-crad:hover{
+    transform: scale(1.1);
+}
+.project-crad:hover .project-imgs{
+    opacity: 0.8;
+}
+.project-imgs img{
+    width: 100%;
+}
+.project-category{
+    padding: 15px;
+}
+.project-category{
+    color: #c79653;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.project-text{
+    font-size: 1.3em;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.more-detalls{
+    text-decoration: none;
+}
+.contact .icon{
+    font-size: 4em;
+}
+.contact .info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: #c79653;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer span{
+    color: #001100;
+    font-weight: 700;
+}
+.footer .icon a{
+    font-size: 0.6em;
+    padding: 0 12px 0 0;
+}
+@media (max-width:1023px){
+    header{
+        padding: 10px 12px;
+    }
+    .navigation {
+        padding-left: 10px;
+    }
+    .logo{
+        font-size: 1.3em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.5;
+    }
+    .content{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 0.8;
+    }
+    .main h3{
+        font-size: 1.1;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
